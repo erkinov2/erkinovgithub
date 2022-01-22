@@ -16,4 +16,30 @@ body {
 h1 {
   color: blue;
   font-family: "Montserrat";
+  -webkit-animation: anim 3s ease-in-out infinite 0s;
+          animation: anim 3s ease-in-out infinite 0s;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    color: cyan;
+  }
+  50% {
+    color: darkcyan;
+  }
+  100% {
+    color: darkblue;
+  }
+}
+
+@keyframes anim {
+  0% {
+    color: cyan;
+  }
+  50% {
+    color: darkcyan;
+  }
+  100% {
+    color: darkblue;
+  }
 }
